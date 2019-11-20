@@ -12,6 +12,11 @@ repositories {
 
 dependencies {
     implementation(Kotlin.stdlib)
+    implementation(KotlinX.Coroutines.core)
+
+    testImplementation(JUnit.api)
+    testImplementation(MockitoKotlin.core)
+    testImplementation(MockkKotlin.core)
 }
 
 tasks.withType<KotlinCompile> {

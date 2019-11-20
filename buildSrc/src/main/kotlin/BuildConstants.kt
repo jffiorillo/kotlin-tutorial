@@ -37,6 +37,11 @@ object MockitoKotlin {
   const val core = "com.nhaarman.mockitokotlin2:mockito-kotlin:$version"
 }
 
+object MockkKotlin {
+  const val version = "1.9.3"
+  const val core = "io.mockk:mockk:$version"
+}
+
 object Jacoco {
   const val version = "0.8.4"
   const val plugin = "jacoco"
